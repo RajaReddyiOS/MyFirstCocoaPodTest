@@ -1,0 +1,22 @@
+{
+  "name": "MyFirstCocoaPodTest",
+  "version": "0.1.0",
+  "summary": "A short description of MyFirstCocoaPodTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Raja/MyFirstCocoaPodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Raja": "raja.reddy@williamoneilindia.com"
+  },
+  "source": {
+    "git": "https://github.com/Raja/MyFirstCocoaPodTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MyFirstCocoaPodTest/Classes/**/*"
+}
