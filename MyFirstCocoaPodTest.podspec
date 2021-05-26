@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyFirstCocoaPodTest'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MyFirstCocoaPodTest.'
+  s.summary          = 'This is test pod. it can be remove any time'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,24 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This is test pod. it can be remove any timeThis is test pod. it can be remove any timeThis is test pod. it can be remove any time'
                        DESC
 
-  s.homepage         = 'https://github.com/Raja/MyFirstCocoaPodTest'
+  s.homepage         = 'https://github.com/RajaReddyiOS/MyFirstCocoaPodTest.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Raja' => 'raja.reddy@williamoneilindia.com' }
-  s.source           = { :git => 'https://github.com/Raja/MyFirstCocoaPodTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RajaReddyiOS/MyFirstCocoaPodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'MyFirstCocoaPodTest/Classes/**/*'
+  s.source_files = 'Source/**/*'
+  s.swiftVersion = '5.0'
+  s.platforms = {
+      'ios': '9.0'
+  }
+  
   
   # s.resource_bundles = {
   #   'MyFirstCocoaPodTest' => ['MyFirstCocoaPodTest/Assets/*.png']

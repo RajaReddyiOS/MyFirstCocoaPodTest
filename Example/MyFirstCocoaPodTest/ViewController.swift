@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import MyFirstCocoaPodTest
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        MyLog.printLog("test Logging here")
     }
 
     override func didReceiveMemoryWarning() {
